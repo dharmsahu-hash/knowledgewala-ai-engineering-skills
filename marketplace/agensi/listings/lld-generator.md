@@ -6,7 +6,7 @@
 - **Short description:** Produces a Low-Level Design from an approved HLD - class and sequence diagrams, database schema, API specifications, interface definitions, design patterns, err
 - **Category:** architecture
 - **Tags:** lld, low-level-design, uml, sequence-diagram, schema, openapi
-- **Version:** 1.0.0-rc.1 (see CHANGELOG.md)
+- **Version:** 1.0.0-rc.2 (see CHANGELOG.md)
 - **License:** MIT
 - **Requirements:** Works in any Agent Skills capable assistant. Diagrams use Mermaid; API specs use OpenAPI 3.x snippets.
 - **Pricing recommendation (proposal, NOT approved):** Paid, one-time (owner to set amount)

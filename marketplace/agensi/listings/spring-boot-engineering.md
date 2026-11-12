@@ -6,7 +6,7 @@
 - **Short description:** Builds and reviews Spring Boot 3.x services - REST controllers, validation, global exception handling, Spring Security, Spring Data JPA and Hibernate, transacti
 - **Category:** backend
 - **Tags:** spring-boot, rest, jpa, hibernate, spring-security, observability
-- **Version:** 1.0.0-rc.1 (see CHANGELOG.md)
+- **Version:** 1.0.0-rc.2 (see CHANGELOG.md)
 - **License:** MIT
 - **Requirements:** Spring Boot 3.x on Java 17+. Verify the project's actual Spring Boot version in its build file before applying advice.
 - **Pricing recommendation (proposal, NOT approved):** Paid, one-time (owner to set amount)

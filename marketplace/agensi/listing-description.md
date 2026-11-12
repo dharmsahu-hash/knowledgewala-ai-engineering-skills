@@ -2,7 +2,7 @@
 
 > Draft for owner review. Not published. Claims below are limited to what is implemented and tested in this repository.
 
-**Skill id:** `ai-sdlc-orchestrator` · **Version:** 1.0.0-rc.1 · **License:** MIT · **Category:** Orchestration / Software engineering
+**Skill id:** `ai-sdlc-orchestrator` · **Version:** 1.0.0-rc.2 · **License:** MIT · **Category:** Orchestration / Software engineering
 **Tags:** sdlc, orchestration, governance, approval-gates, traceability, requirements, architecture, code-review
 
 ## Short description
@@ -21,7 +21,7 @@ Most AI coding sessions jump straight to code. The AI SDLC Orchestrator makes th
 
 A small Python gate tool records stage evidence and refuses to advance if a stage is skipped, evidence is missing, or a human approval is pending. Six situations always stop for a human: major architecture decisions, destructive database changes, security-sensitive changes, secrets, production deployment, scope changes. The assistant cannot approve for you.
 
-Includes a requirements-to-test traceability matrix, delegation briefs for nine companion KnowledgeWala skills, and six sample projects (Spring Boot payments, Angular, MySQL, AWS, RAG, multi-agent).
+Includes a requirements-to-test traceability matrix, delegation briefs for the 19 companion KnowledgeWala skills, and six sample projects (Spring Boot payments, Angular, MySQL, AWS, RAG, multi-agent).
 
 ## What it is not
 Not a deployment tool, not a guarantee of correct software, and not a replacement for engineers. It makes AI-assisted development more disciplined and auditable.
@@ -39,10 +39,10 @@ Expected: clarification questions, a requirements document for your approval, th
 ## Limitations
 - Gate enforcement validates process, not truth: it cannot verify that evidence is genuine or that an approval came from a human.
 - Not yet evaluated end to end with scored real-assistant runs; platform discovery not live-tested.
-- Specialist skills for Angular, AWS, RAG, agentic design and security are on the roadmap; the orchestrator says so when it works without them.
+- The orchestrator works best with the companion skills installed; without them it applies their checklists inline and says so.
 
 ## Changelog
-See repository CHANGELOG.md (1.0.0-rc.1: initial release candidate).
+See repository CHANGELOG.md (1.0.0-rc.2: 20-skill release candidate).
 
 ## Pricing
 Proposal only, see [pricing-recommendation.md](pricing-recommendation.md). Final price set by the owner.

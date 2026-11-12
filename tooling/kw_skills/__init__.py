@@ -3,7 +3,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-__version__ = "1.0.0-rc.1"
+__version__ = "1.0.0-rc.2"
 
 SKILL_ROOTS = ("skills", "orchestrators")
 

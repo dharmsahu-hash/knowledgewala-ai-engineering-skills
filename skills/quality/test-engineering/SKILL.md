@@ -5,7 +5,7 @@ license: MIT
 compatibility: Framework-neutral. Uses the project's existing test framework (for example JUnit 5, pytest, Jest, Playwright); inspect before choosing.
 metadata:
   title: Test Engineering Specialist
-  version: "1.0.0-rc.1"
+  version: "1.0.0-rc.2"
   author: KnowledgeWala
   category: quality
   tags: "testing, unit-tests, integration-tests, contract-tests, e2e, coverage"

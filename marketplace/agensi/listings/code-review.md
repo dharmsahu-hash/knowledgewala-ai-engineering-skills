@@ -6,7 +6,7 @@
 - **Short description:** Reviews code changes for correctness, maintainability, readability, performance, security, error handling, test coverage and architectural consistency, reportin
 - **Category:** quality
 - **Tags:** code-review, pull-request, security, maintainability, quality-gate
-- **Version:** 1.0.0-rc.1 (see CHANGELOG.md)
+- **Version:** 1.0.0-rc.2 (see CHANGELOG.md)
 - **License:** MIT
 - **Requirements:** Works in any Agent Skills capable assistant. Optional check-findings.py needs Python 3.10+.
 - **Pricing recommendation (proposal, NOT approved):** Free (adoption and feedback)

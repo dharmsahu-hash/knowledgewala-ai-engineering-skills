@@ -5,8 +5,8 @@
 
 ## Expected orchestrator behaviour
 - Requirements include accessibility (WCAG 2.2 AA target to confirm), responsive breakpoints and error states.
+- Delegates to `angular-engineering` and `frontend-architecture`.
 - Architecture notes state management choice with alternatives; auth token handling decision recorded.
-- No specialist Angular skill is shipped yet: the orchestrator says so and applies generic guidance.
 - Tests: component tests, an auth-guard test, an accessibility check scenario.
 
 ## Human gates

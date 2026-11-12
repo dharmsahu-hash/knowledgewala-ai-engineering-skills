@@ -12,4 +12,4 @@ Six realistic briefs for exercising the `ai-sdlc-orchestrator` end to end. Each 
 | [multi-agent-application](multi-agent-application/brief.md) | Multi-agent orchestration, guardrails |
 
 **Status:** briefs are ready. Running them against a live assistant and scoring the outputs (`kw-skills eval score`) has **not** been done yet; results go in `evals/results/`.
-Note: specialist skills for Angular, AWS, RAG and agentic design are on the roadmap and not yet shipped; for those samples the orchestrator must say that it applied generic guidance without a specialist skill.
+All specialist skills referenced by the briefs ship in this repository.

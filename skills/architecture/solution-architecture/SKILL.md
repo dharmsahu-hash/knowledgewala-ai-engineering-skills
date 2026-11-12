@@ -5,7 +5,7 @@ license: MIT
 compatibility: Works in any Agent Skills capable assistant. Diagrams use Mermaid.
 metadata:
   title: Solution Architecture Designer
-  version: "1.0.0-rc.1"
+  version: "1.0.0-rc.2"
   author: KnowledgeWala
   category: architecture
   tags: "architecture, adr, microservices, monolith, mermaid, resilience"

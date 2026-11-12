@@ -6,7 +6,7 @@
 - **Short description:** Converts business requirements into structured engineering requirements - functional and non-functional requirements, user stories, acceptance criteria, assumpt
 - **Category:** architecture
 - **Tags:** requirements, user-stories, acceptance-criteria, traceability, sdlc
-- **Version:** 1.0.0-rc.1 (see CHANGELOG.md)
+- **Version:** 1.0.0-rc.2 (see CHANGELOG.md)
 - **License:** MIT
 - **Requirements:** Works in any Agent Skills capable assistant. The optional validate-output.py script needs Python 3.10+.
 - **Pricing recommendation (proposal, NOT approved):** Free (adoption and feedback)

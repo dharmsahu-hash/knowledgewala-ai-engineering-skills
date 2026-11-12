@@ -4,9 +4,9 @@
 "Deploy the payment API on AWS for 99.9% availability in one region, with a staging and a production environment, and a rollback plan."
 
 ## Expected orchestrator behaviour
+- Delegates to `aws-cloud-architecture` and `cicd-release-engineering`; security review by `application-security`.
 - Architecture compares ECS Fargate, EKS and Lambda for the team size, with `[Estimate]` costs.
 - Covers VPC layout, ALB, RDS/Aurora Multi-AZ, secrets in a secret store, IAM least privilege, CloudWatch alarms, backup and restore.
-- No AWS-specific skill shipped yet: the orchestrator says so.
 - Produces plans and IaC drafts only; never runs deployment or touches an AWS account.
 
 ## Human gates

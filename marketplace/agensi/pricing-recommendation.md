@@ -5,9 +5,9 @@ This is a packaging strategy, not confirmed Agensi pricing and not demand data. 
 | Tier | Skills | Proposal | Rationale |
 |---|---|---|---|
 | Free | `requirement-analysis`, `code-review`, `test-engineering` | Free | Adoption and feedback; they showcase output-checker scripts and honesty rules |
-| Paid | `solution-architecture`, `hld-generator`, `lld-generator`, `java-engineering`, `spring-boot-engineering`, `database-engineering` | One-time, price TBD | Deep reference material and templates |
-| Premium | `ai-sdlc-orchestrator` | One-time or subscription, price TBD | Flagship; gate tooling and traceability |
-| Bundle | All ten | Discount versus individual | Natural workflow set |
+| Paid | `solution-architecture`, `hld-generator`, `lld-generator`, `java-engineering`, `spring-boot-engineering`, `database-engineering`, `api-design-integration`, `angular-engineering`, `frontend-architecture`, `rag-engineering`, `ai-testing-evaluation`, `application-security`, `performance-engineering`, `aws-cloud-architecture`, `cicd-release-engineering` | One-time, price TBD | Deep reference material and templates |
+| Premium | `ai-sdlc-orchestrator`, `agentic-ai-architect` | One-time or subscription, price TBD | Flagship; gate tooling and traceability |
+| Bundle | All twenty | Discount versus individual | Natural workflow set |
 | Enterprise | Customisation, private skills, training | Contact KnowledgeWala | Outside the marketplace |
 
 Guidance for the owner:

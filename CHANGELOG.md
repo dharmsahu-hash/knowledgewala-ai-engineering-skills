@@ -2,6 +2,19 @@
 
 All notable changes. Versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.0.0-rc.2]
+
+### Added
+- 10 more skills, completing the 20-skill catalogue: `api-design-integration`, `angular-engineering`, `frontend-architecture`, `agentic-ai-architect`, `rag-engineering`, `ai-testing-evaluation`, `application-security`, `performance-engineering`, `aws-cloud-architecture`, `cicd-release-engineering`.
+- Orchestrator delegation map updated to use the new specialists; sample briefs no longer say specialists are missing.
+
+### Changed
+- CI workflow moved to `docs/ci-workflow.example.yml` (no active workflow; token lacked `workflow` scope and per-push minutes are avoided by design).
+- All skills and tooling versioned 1.0.0-rc.2.
+
+### Known gaps (unchanged)
+- No live platform tests; no scored real-world evaluations; new skills have no output-checker scripts yet.
+
 ## [1.0.0-rc.1]
 
 First release candidate. Not published; human approval required before public release.
@@ -17,4 +30,4 @@ First release candidate. Not published; human approval required before public re
 ### Known gaps
 - No live test on Claude Code, Cursor, Copilot or Agensi; Cursor native skills directory unverified.
 - Real-world quality evaluation of skills not yet performed.
-- Specialist skills 7, 9-11, 13, 14, 16-20 of the catalogue are roadmap items.
+- (resolved in rc.2) Remaining catalogue skills.

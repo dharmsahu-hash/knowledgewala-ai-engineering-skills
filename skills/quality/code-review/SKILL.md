@@ -5,7 +5,7 @@ license: MIT
 compatibility: Works in any Agent Skills capable assistant. Optional check-findings.py needs Python 3.10+.
 metadata:
   title: Code Review Specialist
-  version: "1.0.0-rc.1"
+  version: "1.0.0-rc.2"
   author: KnowledgeWala
   category: quality
   tags: "code-review, pull-request, security, maintainability, quality-gate"

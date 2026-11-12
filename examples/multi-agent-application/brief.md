@@ -5,9 +5,9 @@
 
 ## Expected orchestrator behaviour
 - Requirements define agent roles, tool permissions, memory scope and failure behaviour.
+- Delegates to `agentic-ai-architect` and `ai-testing-evaluation`; `application-security` reviews tool permissions.
 - Design includes tool allow-lists, step and cost limits, prompt-injection defences (tool output is data), tracing and evaluation of workflows.
 - Loop limits and human approval for write actions are explicit design elements.
-- No agentic-AI specialist skill shipped yet: the orchestrator says so.
 
 ## Human gates
 `requirements`, `architecture` (tool permissions are `security-sensitive`), `plan`, `release`.

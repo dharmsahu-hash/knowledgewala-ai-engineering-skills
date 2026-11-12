@@ -5,9 +5,9 @@
 
 ## Expected orchestrator behaviour
 - Requirements include citation, refusal behaviour, freshness, and data privacy for documents.
+- Delegates to `rag-engineering`, `agentic-ai-architect` and `ai-testing-evaluation`.
 - Design covers ingestion, chunking, embeddings, vector store choice, hybrid retrieval, reranking and metadata filters, each with alternatives.
 - An evaluation plan (retrieval hit rate, groundedness, hallucination tests on unanswerable questions) is part of the plan, not an afterthought.
-- No RAG specialist skill shipped yet: the orchestrator says so.
 
 ## Human gates
 `requirements`, `architecture` (third-party model/data transfer is `security-sensitive`), `plan`, `release`.

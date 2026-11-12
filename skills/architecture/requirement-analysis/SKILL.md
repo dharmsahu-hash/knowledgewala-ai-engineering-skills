@@ -5,7 +5,7 @@ license: MIT
 compatibility: Works in any Agent Skills capable assistant. The optional validate-output.py script needs Python 3.10+.
 metadata:
   title: Requirement Analysis
-  version: "1.0.0-rc.1"
+  version: "1.0.0-rc.2"
   author: KnowledgeWala
   category: architecture
   tags: "requirements, user-stories, acceptance-criteria, traceability, sdlc"

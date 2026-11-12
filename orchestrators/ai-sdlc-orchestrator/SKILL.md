@@ -5,7 +5,7 @@ license: MIT
 compatibility: Works in any Agent Skills capable assistant that can read and write files. The sdlc_state.py gate tool needs Python 3.10+. Delegates to the other KnowledgeWala skills when installed; falls back to inline guidance if they are not.
 metadata:
   title: AI SDLC Orchestrator
-  version: "1.0.0-rc.1"
+  version: "1.0.0-rc.2"
   author: KnowledgeWala
   category: orchestration
   tags: "sdlc, orchestration, governance, approval-gates, traceability, workflow"

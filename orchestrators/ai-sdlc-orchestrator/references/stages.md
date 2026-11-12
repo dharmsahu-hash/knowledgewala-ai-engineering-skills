@@ -4,19 +4,19 @@
 |---|---|---|---|---|
 | 1 | requirement-analysis | `requirement-analysis` | docs/sdlc/requirements.md | |
 | 2 | requirement-approval | human | recorded approval | `requirements` |
-| 3 | architecture-design | `solution-architecture` | docs/sdlc/architecture.md + ADRs | `architecture` |
+| 3 | architecture-design | `solution-architecture` (plus `agentic-ai-architect`, `rag-engineering`, `aws-cloud-architecture`, `frontend-architecture` where relevant) | docs/sdlc/architecture.md + ADRs | `architecture` |
 | 4 | hld | `hld-generator` | docs/sdlc/hld.md | |
 | 5 | lld | `lld-generator` | docs/sdlc/lld.md | |
 | 6 | implementation-planning | orchestrator | docs/sdlc/plan.md | `plan` |
 | 7 | task-decomposition | orchestrator | task list with AC ids | |
-| 8 | specialist-delegation | java / spring-boot / database skills | per-task briefs | |
+| 8 | specialist-delegation | java / spring-boot / angular / database / api-design / frontend-architecture skills | per-task briefs | |
 | 9 | code-generation | java / spring-boot skills | source | |
-| 10 | unit-tests | `test-engineering` | tests + run output | |
+| 10 | unit-tests | `test-engineering` (`ai-testing-evaluation` for LLM features) | tests + run output | |
 | 11 | integration-tests | `test-engineering` | tests + run output | |
-| 12 | security-assessment | security specialist if installed, else `code-review` security pass | findings | |
+| 12 | security-assessment | `application-security` (`performance-engineering` where NFRs demand) | findings | |
 | 13 | code-review | `code-review` | docs/sdlc/review.md | |
 | 14 | defect-resolution | specialist skills | fixes + rerun evidence | |
-| 15 | release-readiness | orchestrator | docs/sdlc/release-readiness.md | `release` |
+| 15 | release-readiness | orchestrator, with `cicd-release-engineering` for pipeline and rollback | docs/sdlc/release-readiness.md | `release` |
 | 16 | documentation | orchestrator | README, API docs, changelog | |
 
 ## Flags (human decision required, raised before acting)

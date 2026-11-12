@@ -6,7 +6,7 @@
 - **Short description:** Writes, reviews and optimises modern Java (17, 21 and later LTS) - collections, streams, concurrency, exception handling, immutability, design patterns, clean c
 - **Category:** backend
 - **Tags:** java, jvm, concurrency, streams, clean-code, performance
-- **Version:** 1.0.0-rc.1 (see CHANGELOG.md)
+- **Version:** 1.0.0-rc.2 (see CHANGELOG.md)
 - **License:** MIT
 - **Requirements:** Java 17+ projects. Commands shown for Maven or Gradle; verify the project's own build tool first.
 - **Pricing recommendation (proposal, NOT approved):** Paid, one-time (owner to set amount)

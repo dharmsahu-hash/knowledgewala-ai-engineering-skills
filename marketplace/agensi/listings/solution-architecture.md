@@ -6,7 +6,7 @@
 - **Short description:** Designs scalable, maintainable solution architecture - pattern selection, monolith versus microservices assessment, service boundaries, integration and event-dr
 - **Category:** architecture
 - **Tags:** architecture, adr, microservices, monolith, mermaid, resilience
-- **Version:** 1.0.0-rc.1 (see CHANGELOG.md)
+- **Version:** 1.0.0-rc.2 (see CHANGELOG.md)
 - **License:** MIT
 - **Requirements:** Works in any Agent Skills capable assistant. Diagrams use Mermaid.
 - **Pricing recommendation (proposal, NOT approved):** Paid, one-time (owner to set amount)

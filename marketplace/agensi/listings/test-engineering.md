@@ -6,7 +6,7 @@
 - **Short description:** Designs and writes automated tests - unit, integration, API, contract, end-to-end, boundary, negative and performance-scenario tests - mapped to acceptance crit
 - **Category:** quality
 - **Tags:** testing, unit-tests, integration-tests, contract-tests, e2e, coverage
-- **Version:** 1.0.0-rc.1 (see CHANGELOG.md)
+- **Version:** 1.0.0-rc.2 (see CHANGELOG.md)
 - **License:** MIT
 - **Requirements:** Framework-neutral. Uses the project's existing test framework (for example JUnit 5, pytest, Jest, Playwright); inspect before choosing.
 - **Pricing recommendation (proposal, NOT approved):** Free (adoption and feedback)

@@ -4,7 +4,7 @@ A skill passing Markdown validation is not a skill that produces good engineerin
 
 | Layer | Question | How | Status today |
 |---|---|---|---|
-| 1 Structural | Is it well-formed and safe to ship? | `kw-skills validate` (spec, policy, links, secrets, script safety) | 10/10 skills pass |
+| 1 Structural | Is it well-formed and safe to ship? | `kw-skills validate` (spec, policy, links, secrets, script safety) | 20/20 skills pass |
 | 2 Functional | Do the executable parts work? | pytest: CLI, packagers, gate script (`sdlc_state.py`), output checkers | passing (see test results in the delivery report) |
 | 3 Platform compatibility | Does each platform load it? | `kw-skills compatibility` (structural) plus manual live checklist | structural pass; live: none |
 | 4 Real-world quality | Does it produce good engineering outcomes? | Run on sample briefs; score with a rubric | **0 evaluations recorded** |

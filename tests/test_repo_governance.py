@@ -53,8 +53,10 @@ def test_workflows_are_manual_only(repo_root):
         assert "workflow_dispatch" in t and not re.search(r"(?m)^\s*(push|pull_request|schedule):", t), w.name
 
 
-def test_initial_ten_skills_present(repo_root):
+def test_full_catalogue_present(repo_root):
     from kw_skills import discover_skills
     names = {s.name for s in discover_skills(repo_root)}
     assert names == {"requirement-analysis", "solution-architecture", "hld-generator", "lld-generator", "java-engineering",
-                     "spring-boot-engineering", "database-engineering", "code-review", "test-engineering", "ai-sdlc-orchestrator"}
+                     "spring-boot-engineering", "database-engineering", "code-review", "test-engineering", "ai-sdlc-orchestrator",
+                     "api-design-integration", "angular-engineering", "frontend-architecture", "agentic-ai-architect", "rag-engineering",
+                     "ai-testing-evaluation", "application-security", "performance-engineering", "aws-cloud-architecture", "cicd-release-engineering"}

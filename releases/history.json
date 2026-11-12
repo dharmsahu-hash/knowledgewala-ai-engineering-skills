@@ -5,5 +5,12 @@
     "built_at": "2026-11-12T17:28:19+00:00",
     "artifacts": 33,
     "published": false
+  },
+  {
+    "version": "1.0.0-rc.2",
+    "status": "built",
+    "built_at": "2026-11-12T17:46:00+00:00",
+    "artifacts": 63,
+    "published": false
   }
 ]

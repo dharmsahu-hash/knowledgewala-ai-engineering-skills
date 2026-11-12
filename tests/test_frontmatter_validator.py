@@ -114,7 +114,7 @@ def test_unsafe_markdown_warns_unless_negated(make_skill):
 
 def test_repository_skills_all_valid(repo_root):
     skills = discover_skills(repo_root)
-    assert len(skills) == 10
+    assert len(skills) == 20
     res = {s.name: validate_skill(s) for s in skills}
     summ = summarize(res)
     assert summ["errors"] == 0, {k: [f.message for f in v if f.severity == "error"] for k, v in res.items() if v}

@@ -6,7 +6,7 @@
 - **Short description:** Produces a High-Level Design from approved requirements and architecture decisions - system architecture, major components, data flow, integration points, API b
 - **Category:** architecture
 - **Tags:** hld, high-level-design, architecture, data-flow, security-architecture
-- **Version:** 1.0.0-rc.1 (see CHANGELOG.md)
+- **Version:** 1.0.0-rc.2 (see CHANGELOG.md)
 - **License:** MIT
 - **Requirements:** Works in any Agent Skills capable assistant. Diagrams use Mermaid.
 - **Pricing recommendation (proposal, NOT approved):** Paid, one-time (owner to set amount)

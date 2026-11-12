@@ -15,7 +15,7 @@ def _root(monkeypatch, repo_root):
 def test_list_json(capsys):
     assert cli.main(["list", "--json"]) == 0
     rows = json.loads(capsys.readouterr().out)
-    assert len(rows) == 10 and {"name", "version", "category"} <= set(rows[0])
+    assert len(rows) == 20 and {"name", "version", "category"} <= set(rows[0])
 
 
 def test_global_flags_before_subcommand(capsys):
@@ -25,7 +25,7 @@ def test_global_flags_before_subcommand(capsys):
 
 def test_validate_all_and_one(capsys):
     assert cli.main(["validate"]) == 0
-    assert "10 skill(s): 0 error(s)" in capsys.readouterr().out
+    assert "20 skill(s): 0 error(s)" in capsys.readouterr().out
     assert cli.main(["validate", "code-review", "--json"]) == 0
     data = json.loads(capsys.readouterr().out)
     assert data["summary"]["skills"] == 1 and data["summary"]["errors"] == 0
@@ -90,7 +90,7 @@ def test_release_blocked_by_validation_error(repo_copy):
 
 def test_marketplace_prepare_and_report(repo_copy):
     r = marketplace.prepare(repo_copy)
-    assert r["listings"] == 10 and r["packages"] == 10
+    assert r["listings"] == 20 and r["packages"] == 20
     rep = marketplace.report(repo_copy)
     assert rep["submission_assets_ready"] and rep["evaluated_in_real_world"] == 0
     assert any("accepts Agensi creator terms" in g.lower() or "accepted" in g.lower() for g in rep["pending_human_gates"])

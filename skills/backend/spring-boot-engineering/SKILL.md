@@ -5,7 +5,7 @@ license: MIT
 compatibility: Spring Boot 3.x on Java 17+. Verify the project's actual Spring Boot version in its build file before applying advice.
 metadata:
   title: Spring Boot Engineering Specialist
-  version: "1.0.0-rc.1"
+  version: "1.0.0-rc.2"
   author: KnowledgeWala
   category: backend
   tags: "spring-boot, rest, jpa, hibernate, spring-security, observability"
