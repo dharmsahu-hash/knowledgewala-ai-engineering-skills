@@ -1,0 +1,16 @@
+{
+  "name": "payment-processing-api (Spring Boot, MySQL, Redis)",
+  "task": "Develop a payment processing REST API using Spring Boot, MySQL and Redis.",
+  "criteria": [
+    { "id": "correctness", "weight": 20, "description": "Meets every acceptance criterion; builds and tests run." },
+    { "id": "architecture", "weight": 10, "description": "Layering, module boundaries, matches approved HLD/LLD." },
+    { "id": "idempotency", "weight": 15, "description": "Same key returns original result; concurrent retries create one charge." },
+    { "id": "transactions", "weight": 10, "description": "Minimal scope, no remote call inside a DB transaction, explicit rollback." },
+    { "id": "security", "weight": 15, "description": "AuthN/Z, validation, no secrets in code, no card data stored." },
+    { "id": "error-handling", "weight": 8, "description": "Stable error contract, no leaked internals, failure paths covered." },
+    { "id": "unit-testing", "weight": 10, "description": "AC-mapped tests incl. negative and boundary; real executed results." },
+    { "id": "performance", "weight": 5, "description": "Indexes justified, pool sizing reasoned, claims measured." },
+    { "id": "documentation", "weight": 7, "description": "README, API spec, ADRs, traceability, honest limitations." }
+  ],
+  "scoring": "Each criterion 0-10 with a written rationale from the evaluator who actually ran the skill; weighted to 100 by kw-skills eval score."
+}

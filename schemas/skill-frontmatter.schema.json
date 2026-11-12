@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/dharmsahu-hash/knowledgewala-ai-engineering-skills/schemas/skill-frontmatter.schema.json",
+  "title": "KnowledgeWala skill frontmatter",
+  "description": "Agent Skills spec fields (agentskills.io/specification) plus KnowledgeWala policy: license and metadata are required. Enforced natively by tooling/kw_skills/validator.py; this file documents it for editors and CI.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name", "description", "license", "metadata"],
+  "properties": {
+    "name": { "type": "string", "maxLength": 64, "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "description": "Must equal the directory name." },
+    "description": { "type": "string", "minLength": 1, "maxLength": 1024, "description": "What it does and when to use it." },
+    "license": { "type": "string", "minLength": 1 },
+    "compatibility": { "type": "string", "minLength": 1, "maxLength": 500 },
+    "allowed-tools": { "type": "string", "description": "Experimental in the spec; not used by KnowledgeWala skills." },
+    "metadata": {
+      "type": "object",
+      "required": ["version", "author", "category", "tags"],
+      "additionalProperties": { "type": "string" },
+      "properties": {
+        "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+(-[0-9A-Za-z.-]+)?$" },
+        "author": { "type": "string" },
+        "category": { "type": "string" },
+        "tags": { "type": "string" },
+        "title": { "type": "string" },
+        "tier": { "enum": ["free", "paid", "premium"] }
+      }
+    }
+  }
+}
