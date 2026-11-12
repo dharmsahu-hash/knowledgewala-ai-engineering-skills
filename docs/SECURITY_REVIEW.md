@@ -9,7 +9,7 @@ Performed by the author's tooling and a manual read. **Not an independent audit.
 | Repo-wide secret-pattern test over all tracked text (`tests/test_repo_governance.py`) | pass |
 | Grep of `tooling/` for network modules, `subprocess`, `os.system`, `eval`, `exec` | none used; only the validator's own deny-list and a function named `cmd_eval` match |
 | Skill scripts (`validate-output.py`, `check-findings.py`, `sdlc_state.py`) AST-checked | read/write local files only; no network or process spawning |
-| CI workflow triggers | `workflow_dispatch` only (tested) |
+| CI workflow | none active; example file is `workflow_dispatch` only |
 | Dependencies | runtime: none; dev: pytest |
 
 ## Manual review notes

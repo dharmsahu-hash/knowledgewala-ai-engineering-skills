@@ -69,7 +69,7 @@ Install skills into an assistant: [INSTALLATION.md](INSTALLATION.md). Use them: 
 
 ## Development gate
 
-`powershell -File scripts/check.ps1` (or `sh scripts/check.sh`) runs tests, validation, compatibility and the catalogue check. GitHub Actions is manual-only (`workflow_dispatch`).
+`powershell -File scripts/check.ps1` (or `sh scripts/check.sh`) runs tests, validation, compatibility and the catalogue check. There is no active CI workflow by design (no per-push minutes); a manual-only example is in `docs/ci-workflow.example.yml` (copy to `.github/workflows/` with a token that has the `workflow` scope).
 
 ## Licence
 

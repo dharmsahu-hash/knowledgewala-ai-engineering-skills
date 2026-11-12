@@ -15,7 +15,7 @@ Skills are instructions plus optional small scripts, and are treated as **potent
 | No automatic destructive actions, deploys or approvals | Skill rules; orchestrator script refuses AI-named approvers and blocks on pending flags |
 | Human approval for architecture, destructive DB, security-sensitive, secrets, production deploy, scope change | Orchestrator gates and flags |
 | Reproducible artifacts with checksums | Deterministic zips, `SHA256SUMS` |
-| Manual workflows only in CI | `workflow_dispatch` only (tested) |
+| No automatic CI runs | No active workflow; the example is `workflow_dispatch` only |
 
 ## Consuming third-party skills
 Never run a downloaded skill's scripts without reading them. Extract archives into an empty directory, inspect `SKILL.md` and `scripts/`, and run any Python with `python -I` inside a sandbox or container without network access.
