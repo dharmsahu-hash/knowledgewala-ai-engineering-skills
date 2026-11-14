@@ -5,7 +5,7 @@ license: MIT
 compatibility: Design and documentation only. This skill never uses AWS credentials and never changes an AWS account; pricing and service limits must be verified against current AWS documentation.
 metadata:
   title: AWS Cloud Architecture Specialist
-  version: "1.0.0-rc.2"
+  version: "1.0.0-rc.3"
   author: KnowledgeWala
   category: devops
   tags: "aws, ecs, eks, lambda, rds, aurora, vpc, iam, cloudwatch"

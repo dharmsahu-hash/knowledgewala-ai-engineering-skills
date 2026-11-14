@@ -5,7 +5,7 @@ license: MIT
 compatibility: Framework-neutral. Running evaluations requires access to the model under test; this skill never invents results.
 metadata:
   title: AI Testing and Evaluation
-  version: "1.0.0-rc.2"
+  version: "1.0.0-rc.3"
   author: KnowledgeWala
   category: agentic-ai
   tags: "llm-evaluation, prompt-testing, regression, hallucination, rag-evaluation, agents"

@@ -5,7 +5,7 @@ license: MIT
 compatibility: Tool-neutral (GitHub Actions, GitLab CI, Jenkins, others). Pipelines are produced as drafts for review; this skill never triggers a deployment.
 metadata:
   title: CI/CD and Release Engineering
-  version: "1.0.0-rc.2"
+  version: "1.0.0-rc.3"
   author: KnowledgeWala
   category: devops
   tags: "cicd, pipelines, containers, deployment-strategies, rollback, iac, release"

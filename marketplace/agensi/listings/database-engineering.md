@@ -6,7 +6,7 @@
 - **Short description:** Designs and optimises databases - relational modelling for MySQL, PostgreSQL and Aurora, indexing, query analysis with EXPLAIN, transactions and isolation, conn
 - **Category:** backend
 - **Tags:** mysql, postgresql, aurora, redis, dynamodb, indexing, migrations
-- **Version:** 1.0.0-rc.2 (see CHANGELOG.md)
+- **Version:** 1.0.0-rc.3 (see CHANGELOG.md)
 - **License:** MIT
 - **Requirements:** Engine-specific advice requires the engine and version to be stated. Scripts and SQL are produced for review; this skill never runs them against a database.
 - **Pricing recommendation (proposal, NOT approved):** Paid, one-time (owner to set amount)

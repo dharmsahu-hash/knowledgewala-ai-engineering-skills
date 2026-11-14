@@ -5,7 +5,7 @@ license: MIT
 compatibility: Works in any Agent Skills capable assistant; framework-neutral. Pair with `angular-engineering` for Angular specifics.
 metadata:
   title: Frontend Architecture and UI Engineering
-  version: "1.0.0-rc.2"
+  version: "1.0.0-rc.3"
   author: KnowledgeWala
   category: frontend
   tags: "frontend, architecture, design-system, accessibility, state-management, web-performance"

@@ -171,7 +171,7 @@ def build_parser() -> argparse.ArgumentParser:
     v.add_argument("skill", nargs="?")
     v.set_defaults(fn=cmd_validate)
     k = sub.add_parser("package", parents=[common], help="build platform packages")
-    k.add_argument("--platform", action="append", choices=["claude-code", "cursor", "github-copilot", "generic", "generic-agent", "agensi"])
+    k.add_argument("--platform", action="append", choices=["claude-code", "cursor", "github-copilot", "codex", "generic", "generic-agent", "agensi"])
     k.add_argument("--skill", action="append")
     k.add_argument("--out")
     k.set_defaults(fn=cmd_package)

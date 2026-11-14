@@ -5,7 +5,7 @@ license: MIT
 compatibility: Static review by default. Any dynamic testing or scanner use needs explicit approval and an owned, non-production target.
 metadata:
   title: Application Security Specialist
-  version: "1.0.0-rc.2"
+  version: "1.0.0-rc.3"
   author: KnowledgeWala
   category: security
   tags: "appsec, owasp, authentication, authorization, injection, secrets, dependency-security"

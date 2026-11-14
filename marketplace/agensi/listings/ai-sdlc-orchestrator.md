@@ -6,14 +6,14 @@
 - **Short description:** Coordinates the full software lifecycle from business requirement to release - requirement analysis and approval, architecture, HLD, LLD, planning, delegation t
 - **Category:** orchestration
 - **Tags:** sdlc, orchestration, governance, approval-gates, traceability, workflow
-- **Version:** 1.0.0-rc.2 (see CHANGELOG.md)
+- **Version:** 1.0.0-rc.3 (see CHANGELOG.md)
 - **License:** MIT
 - **Requirements:** Works in any Agent Skills capable assistant that can read and write files. The sdlc_state.py gate tool needs Python 3.10+. Delegates to the other KnowledgeWala skills when installed; falls back to inline guidance if they are not.
 - **Pricing recommendation (proposal, NOT approved):** Premium, one-time or subscription (owner to set amount)
 
 ## Detailed description
 
-Coordinates the full software lifecycle from business requirement to release - requirement analysis and approval, architecture, HLD, LLD, planning, delegation to specialist skills, code, tests, security and code review, defect resolution, release readiness and documentation - enforcing stage order and human approval gates with a state file. Use when building or changing a non-trivial system end to end, or when AI-generated code must follow disciplined engineering with traceability.
+Coordinates the full software lifecycle from business requirement to release - requirement analysis and approval, architecture, HLD, LLD, planning, delegation to specialist skills, code, tests, security and code review, defect resolution, release readiness and documentation - enforcing stage order and human approval gates with a state file. Use when building or changing a non-trivial system end to end, or when AI code needs traceable, disciplined engineering.
 
 Run a project through the lifecycle in order, never skipping a critical stage because code could be generated sooner, and never proceeding past a sensitive decision without a human.
 

@@ -5,7 +5,7 @@ license: MIT
 compatibility: Engine-specific advice requires the engine and version to be stated. Scripts and SQL are produced for review; this skill never runs them against a database.
 metadata:
   title: Database Architecture and Optimization
-  version: "1.0.0-rc.2"
+  version: "1.0.0-rc.3"
   author: KnowledgeWala
   category: backend
   tags: "mysql, postgresql, aurora, redis, dynamodb, indexing, migrations"

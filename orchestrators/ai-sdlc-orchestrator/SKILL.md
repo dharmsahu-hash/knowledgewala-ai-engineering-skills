@@ -1,11 +1,11 @@
 ---
 name: ai-sdlc-orchestrator
-description: Coordinates the full software lifecycle from business requirement to release - requirement analysis and approval, architecture, HLD, LLD, planning, delegation to specialist skills, code, tests, security and code review, defect resolution, release readiness and documentation - enforcing stage order and human approval gates with a state file. Use when building or changing a non-trivial system end to end, or when AI-generated code must follow disciplined engineering with traceability.
+description: Coordinates the full software lifecycle from business requirement to release - requirement analysis and approval, architecture, HLD, LLD, planning, delegation to specialist skills, code, tests, security and code review, defect resolution, release readiness and documentation - enforcing stage order and human approval gates with a state file. Use when building or changing a non-trivial system end to end, or when AI code needs traceable, disciplined engineering.
 license: MIT
 compatibility: Works in any Agent Skills capable assistant that can read and write files. The sdlc_state.py gate tool needs Python 3.10+. Delegates to the other KnowledgeWala skills when installed; falls back to inline guidance if they are not.
 metadata:
   title: AI SDLC Orchestrator
-  version: "1.0.0-rc.2"
+  version: "1.0.0-rc.3"
   author: KnowledgeWala
   category: orchestration
   tags: "sdlc, orchestration, governance, approval-gates, traceability, workflow"

@@ -26,6 +26,7 @@ Build packages first: `kw-skills package` (all platforms) or `--platform <name>`
 | **Claude Code** | Copy `dist/claude-code/per-skill/<skill>` folders (unzipped) into `~/.claude/skills/` or `<project>/.claude/skills/`. Or unzip the plugin bundle and load it as a plugin directory | Layout matches docs; not live-tested |
 | **GitHub Copilot** | Unzip `dist/github-copilot/...zip` at the repository root; it creates `.github/skills/<skill>/` and `.github/copilot-instructions.md` | Layout matches GitHub Docs; not live-tested |
 | **Cursor** | Unzip `dist/cursor/...zip` at the project root: rules in `.cursor/rules/*.mdc`, resources in `.cursor/skills/`. Rules are the verified mechanism; the skills folder holds referenced files | Rules documented; native skills dir **unverified**; not live-tested |
+| **OpenAI Codex** | Unzip `dist/codex/...zip` at the repo root (creates `.agents/skills/<skill>/`), or copy the `.agents` folder to `~/.agents/skills` for all projects. Optionally merge `AGENTS-kw-skills-snippet.md` into your `AGENTS.md` (Codex reads AGENTS.md up to 32 KiB combined). Invoke with `$skill-name` or let Codex pick by description | Docs-verified layout; discovery simulated; **not live-tested** |
 | **Other Agent Skills agents** | Copy a folder from `dist/generic/<skill>-<ver>.zip` to the agent's skills directory | Spec-conformant; per-agent behaviour unverified |
 | **Agensi** | Manual creator submission by the owner: see [MARKETPLACE_GUIDE](MARKETPLACE_GUIDE.md) | Not submitted |
 

@@ -4,7 +4,7 @@
 
 **Professional AI Engineering Workflows. Structured, Reusable, and Built for Real-World Software Development.**
 
-`MIT` · `v1.0.0-rc.2 (release candidate, unpublished)` · `Python 3.10+, no runtime dependencies` · `Windows, macOS, Linux`
+`MIT` · `v1.0.0-rc.3 (release candidate, unpublished)` · `Python 3.10+, no runtime dependencies` · `Windows, macOS, Linux`
 
 </div>
 
@@ -15,7 +15,7 @@ Use AI coding assistants as disciplined engineering partners instead of code gen
 - **20 skills** in the open [Agent Skills](https://agentskills.io/specification) format, one canonical source:
   architecture (requirements, solution architecture, HLD, LLD), backend (Java, Spring Boot, database, API design), frontend (Angular, frontend architecture), agentic AI (agent architecture, RAG, AI testing and evaluation), quality and security (code review, test engineering, application security, performance), DevOps (AWS, CI/CD), and the flagship **`ai-sdlc-orchestrator`**. See the [catalogue](docs/SKILL_CATALOGUE.md).
 - **Flagship orchestrator** with a 16-stage lifecycle whose order, evidence and human approvals are enforced by a script (`sdlc_state.py`), not just by instructions.
-- **`kw-skills` CLI**: validate, package for Claude Code, Cursor, GitHub Copilot and generic agents, compatibility checks, releases with checksums, Agensi submission package preparation.
+- **`kw-skills` CLI**: validate, package for Claude Code, Cursor, GitHub Copilot, OpenAI Codex and generic agents, compatibility checks, releases with checksums, Agensi submission package preparation.
 - **Evaluation rubric** to score real skill output out of 100, with rationale per criterion.
 - Six realistic [sample projects](examples/README.md).
 

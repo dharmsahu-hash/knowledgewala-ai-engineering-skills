@@ -6,7 +6,7 @@
 - **Short description:** Designs framework-neutral frontend architecture - component architecture, reusable design systems, responsive layout, accessibility, state management, API integ
 - **Category:** frontend
 - **Tags:** frontend, architecture, design-system, accessibility, state-management, web-performance
-- **Version:** 1.0.0-rc.2 (see CHANGELOG.md)
+- **Version:** 1.0.0-rc.3 (see CHANGELOG.md)
 - **License:** MIT
 - **Requirements:** Works in any Agent Skills capable assistant; framework-neutral. Pair with `angular-engineering` for Angular specifics.
 - **Pricing recommendation (proposal, NOT approved):** Paid, one-time (owner to set amount)

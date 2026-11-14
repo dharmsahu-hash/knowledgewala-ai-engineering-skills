@@ -45,6 +45,11 @@ def test_gate_needs_human_approval(run):
     assert run("complete", "requirement-approval", "--evidence", EV) == 0
 
 
+@pytest.mark.parametrize("name", ["Codex", "ChatGPT", "Copilot", "Cursor", "Gemini", "claude code", "AUTO"])
+def test_other_ai_tool_names_cannot_approve(run, name):
+    assert run("approve", "requirements", "--by", name) == 1
+
+
 def test_flag_blocks_until_human_resolves(run):
     run("flag", "destructive-db", "--reason", "drop legacy table")
     assert run("complete", "requirement-analysis", "--evidence", EV) == 1

@@ -6,7 +6,7 @@
 - **Short description:** Designs and reviews retrieval-augmented generation systems - document ingestion, chunking, embedding and vector store selection, retrieval strategies, hybrid se
 - **Category:** agentic-ai
 - **Tags:** rag, retrieval, embeddings, vector-search, chunking, evaluation
-- **Version:** 1.0.0-rc.2 (see CHANGELOG.md)
+- **Version:** 1.0.0-rc.3 (see CHANGELOG.md)
 - **License:** MIT
 - **Requirements:** Works in any Agent Skills capable assistant. Vendor and library choices must be checked against current documentation.
 - **Pricing recommendation (proposal, NOT approved):** Paid, one-time (owner to set amount)

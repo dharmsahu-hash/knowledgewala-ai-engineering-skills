@@ -6,7 +6,7 @@
 - **Short description:** Builds and reviews Angular 16+ applications - standalone components, services and dependency injection, RxJS, signals, state management, routing and guards, rea
 - **Category:** frontend
 - **Tags:** angular, typescript, rxjs, forms, accessibility, performance
-- **Version:** 1.0.0-rc.2 (see CHANGELOG.md)
+- **Version:** 1.0.0-rc.3 (see CHANGELOG.md)
 - **License:** MIT
 - **Requirements:** Angular 16+ with TypeScript. Verify the project's actual Angular version in package.json before applying advice.
 - **Pricing recommendation (proposal, NOT approved):** Paid, one-time (owner to set amount)

@@ -7,6 +7,7 @@ Adapter code lives in `tooling/kw_skills/packager.py` (one `build_<platform>` fu
 | [claude-code](claude-code/README.md) | plugin bundle + per-skill zips | `.claude-plugin/plugin.json`, `skills/` |
 | [cursor](cursor/README.md) | `.cursor/rules/*.mdc` + `.cursor/skills/` | native skills dir unverified |
 | [github-copilot](github-copilot/README.md) | `.github/skills/` + `copilot-instructions.md` | |
+| [codex](codex/README.md) | `.agents/skills/` + AGENTS.md snippet | docs-verified, simulated discovery |
 | [generic-agent](generic-agent/README.md) | per-skill zips | Agent Skills spec; also used for Agensi |
 
 Evidence levels: [docs/COMPATIBILITY.md](../docs/COMPATIBILITY.md).

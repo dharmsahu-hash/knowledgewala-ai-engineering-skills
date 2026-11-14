@@ -14,7 +14,7 @@ from pathlib import Path
 
 from . import __version__, discover_skills, frontmatter
 
-PLATFORMS = ("generic", "claude-code", "cursor", "github-copilot", "agensi")
+PLATFORMS = ("generic", "claude-code", "cursor", "github-copilot", "codex", "agensi")
 EXCLUDE_DIRS = {"tests", "__pycache__"}
 ZIP_TIME = (2026, 1, 1, 0, 0, 0)
 PRODUCT = "knowledgewala-ai-engineering-skills"
@@ -138,8 +138,27 @@ def build_copilot(skills: list[Path], out: Path) -> list[Path]:
     return [zip_dir(root, out / f"{PRODUCT}-github-copilot-{__version__}.zip")]
 
 
+AGENTS_SNIPPET = """# KnowledgeWala skills (merge into your AGENTS.md)
+
+This repository ships engineering skills under `.agents/skills/<name>/SKILL.md`.
+Use `requirement-analysis` before design, `ai-sdlc-orchestrator` for end-to-end work,
+and `code-review` for independent review. Approval gates require a named human; never approve on their behalf.
+"""
+
+
+def build_codex(skills: list[Path], out: Path) -> list[Path]:
+    # Codex scans $CWD/.agents/skills up to the repo root, and $HOME/.agents/skills (docs checked 2026-11-14).
+    root = out / "workspace"
+    if root.exists():
+        shutil.rmtree(root)
+    for s in skills:
+        copy_skill(s, root / ".agents" / "skills" / s.name)
+    (root / "AGENTS-kw-skills-snippet.md").write_text(AGENTS_SNIPPET, encoding="utf-8")
+    return [zip_dir(root, out / f"{PRODUCT}-codex-{__version__}.zip")]
+
+
 BUILDERS = {"generic": build_generic, "agensi": build_agensi, "claude-code": build_claude_code,
-            "cursor": build_cursor, "github-copilot": build_copilot}
+            "cursor": build_cursor, "github-copilot": build_copilot, "codex": build_codex}
 
 
 def package(root: Path, platforms: list[str], only: list[str] | None = None, dist: Path | None = None) -> dict:

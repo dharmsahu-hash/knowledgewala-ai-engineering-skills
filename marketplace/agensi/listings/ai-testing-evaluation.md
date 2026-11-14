@@ -6,7 +6,7 @@
 - **Short description:** Designs and runs evaluation for LLM applications - prompt tests, agent workflow evaluation, RAG evaluation, regression suites, hallucination tests, output valid
 - **Category:** agentic-ai
 - **Tags:** llm-evaluation, prompt-testing, regression, hallucination, rag-evaluation, agents
-- **Version:** 1.0.0-rc.2 (see CHANGELOG.md)
+- **Version:** 1.0.0-rc.3 (see CHANGELOG.md)
 - **License:** MIT
 - **Requirements:** Framework-neutral. Running evaluations requires access to the model under test; this skill never invents results.
 - **Pricing recommendation (proposal, NOT approved):** Paid, one-time (owner to set amount)

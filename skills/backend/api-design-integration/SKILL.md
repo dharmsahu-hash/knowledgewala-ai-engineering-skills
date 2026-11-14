@@ -5,7 +5,7 @@ license: MIT
 compatibility: Works in any Agent Skills capable assistant. OpenAPI 3.x snippets in YAML.
 metadata:
   title: API Design and Integration
-  version: "1.0.0-rc.2"
+  version: "1.0.0-rc.3"
   author: KnowledgeWala
   category: backend
   tags: "api, rest, openapi, versioning, idempotency, pagination"

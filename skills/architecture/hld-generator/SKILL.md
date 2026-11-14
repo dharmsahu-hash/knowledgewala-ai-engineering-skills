@@ -5,7 +5,7 @@ license: MIT
 compatibility: Works in any Agent Skills capable assistant. Diagrams use Mermaid.
 metadata:
   title: High-Level Design Generator
-  version: "1.0.0-rc.2"
+  version: "1.0.0-rc.3"
   author: KnowledgeWala
   category: architecture
   tags: "hld, high-level-design, architecture, data-flow, security-architecture"

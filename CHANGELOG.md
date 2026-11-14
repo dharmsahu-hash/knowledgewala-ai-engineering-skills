@@ -2,6 +2,13 @@
 
 All notable changes. Versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.0.0-rc.3]
+
+### Added
+- OpenAI Codex adapter: `kw-skills package --platform codex` writes `.agents/skills/<name>/` plus an AGENTS.md snippet (layout from OpenAI Codex docs, 2026-11-14).
+- Compatibility check with a Codex discovery **simulation** (nested CWD walk, name/description, duplicates) and a skills-list size note; end-to-end test that installs the package and runs the orchestrator gate script from the installed path.
+- Known gap: not live-tested (Codex not installed); extra frontmatter fields unconfirmed as tolerated.
+
 ## [1.0.0-rc.2]
 
 ### Added

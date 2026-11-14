@@ -5,7 +5,7 @@ license: MIT
 compatibility: Works in any Agent Skills capable assistant. Measurements require running the system; load tests need an approved non-production environment.
 metadata:
   title: Performance Engineering Specialist
-  version: "1.0.0-rc.2"
+  version: "1.0.0-rc.3"
   author: KnowledgeWala
   category: quality
   tags: "performance, profiling, latency, throughput, caching, concurrency"

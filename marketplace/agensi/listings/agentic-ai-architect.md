@@ -6,7 +6,7 @@
 - **Short description:** Designs agentic AI applications - agent architecture, tool integration and function calling, multi-agent orchestration, memory and context engineering, RAG inte
 - **Category:** agentic-ai
 - **Tags:** agents, multi-agent, tools, guardrails, evaluation, observability, langgraph
-- **Version:** 1.0.0-rc.2 (see CHANGELOG.md)
+- **Version:** 1.0.0-rc.3 (see CHANGELOG.md)
 - **License:** MIT
 - **Requirements:** Framework-neutral design guidance. Framework specifics (LangChain, LangGraph) must be checked against the project's installed versions before use.
 - **Pricing recommendation (proposal, NOT approved):** Premium, one-time or subscription (owner to set amount)

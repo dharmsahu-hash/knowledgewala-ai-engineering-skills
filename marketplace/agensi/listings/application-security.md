@@ -6,7 +6,7 @@
 - **Short description:** Assesses application security against the OWASP Top 10 - authentication, authorisation, input validation, injection, secrets management, data exposure, dependen
 - **Category:** security
 - **Tags:** appsec, owasp, authentication, authorization, injection, secrets, dependency-security
-- **Version:** 1.0.0-rc.2 (see CHANGELOG.md)
+- **Version:** 1.0.0-rc.3 (see CHANGELOG.md)
 - **License:** MIT
 - **Requirements:** Static review by default. Any dynamic testing or scanner use needs explicit approval and an owned, non-production target.
 - **Pricing recommendation (proposal, NOT approved):** Paid, one-time (owner to set amount)

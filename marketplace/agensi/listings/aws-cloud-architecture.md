@@ -6,7 +6,7 @@
 - **Short description:** Designs AWS architectures and infrastructure recommendations - ECS, EKS, Lambda, RDS and Aurora, S3, CloudFront, API Gateway, IAM, VPC, ALB and CloudWatch - cov
 - **Category:** devops
 - **Tags:** aws, ecs, eks, lambda, rds, aurora, vpc, iam, cloudwatch
-- **Version:** 1.0.0-rc.2 (see CHANGELOG.md)
+- **Version:** 1.0.0-rc.3 (see CHANGELOG.md)
 - **License:** MIT
 - **Requirements:** Design and documentation only. This skill never uses AWS credentials and never changes an AWS account; pricing and service limits must be verified against current AWS documentation.
 - **Pricing recommendation (proposal, NOT approved):** Paid, one-time (owner to set amount)

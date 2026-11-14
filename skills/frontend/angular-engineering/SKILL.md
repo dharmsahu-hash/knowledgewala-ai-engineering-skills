@@ -5,7 +5,7 @@ license: MIT
 compatibility: Angular 16+ with TypeScript. Verify the project's actual Angular version in package.json before applying advice.
 metadata:
   title: Angular Engineering Specialist
-  version: "1.0.0-rc.2"
+  version: "1.0.0-rc.3"
   author: KnowledgeWala
   category: frontend
   tags: "angular, typescript, rxjs, forms, accessibility, performance"

@@ -6,7 +6,7 @@
 - **Short description:** Designs build, test and release pipelines - automated testing, artifact management, containerisation, deployment strategies, rollback plans, environment configu
 - **Category:** devops
 - **Tags:** cicd, pipelines, containers, deployment-strategies, rollback, iac, release
-- **Version:** 1.0.0-rc.2 (see CHANGELOG.md)
+- **Version:** 1.0.0-rc.3 (see CHANGELOG.md)
 - **License:** MIT
 - **Requirements:** Tool-neutral (GitHub Actions, GitLab CI, Jenkins, others). Pipelines are produced as drafts for review; this skill never triggers a deployment.
 - **Pricing recommendation (proposal, NOT approved):** Paid, one-time (owner to set amount)

@@ -5,7 +5,7 @@ license: MIT
 compatibility: Java 17+ projects. Commands shown for Maven or Gradle; verify the project's own build tool first.
 metadata:
   title: Java Engineering Specialist
-  version: "1.0.0-rc.2"
+  version: "1.0.0-rc.3"
   author: KnowledgeWala
   category: backend
   tags: "java, jvm, concurrency, streams, clean-code, performance"

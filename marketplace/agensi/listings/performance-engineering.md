@@ -6,7 +6,7 @@
 - **Short description:** Diagnoses and improves application performance from measurements - CPU, memory, database and query efficiency, API latency, throughput, concurrency, caching and
 - **Category:** quality
 - **Tags:** performance, profiling, latency, throughput, caching, concurrency
-- **Version:** 1.0.0-rc.2 (see CHANGELOG.md)
+- **Version:** 1.0.0-rc.3 (see CHANGELOG.md)
 - **License:** MIT
 - **Requirements:** Works in any Agent Skills capable assistant. Measurements require running the system; load tests need an approved non-production environment.
 - **Pricing recommendation (proposal, NOT approved):** Paid, one-time (owner to set amount)

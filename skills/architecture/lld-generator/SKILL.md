@@ -5,7 +5,7 @@ license: MIT
 compatibility: Works in any Agent Skills capable assistant. Diagrams use Mermaid; API specs use OpenAPI 3.x snippets.
 metadata:
   title: Low-Level Design Generator
-  version: "1.0.0-rc.2"
+  version: "1.0.0-rc.3"
   author: KnowledgeWala
   category: architecture
   tags: "lld, low-level-design, uml, sequence-diagram, schema, openapi"

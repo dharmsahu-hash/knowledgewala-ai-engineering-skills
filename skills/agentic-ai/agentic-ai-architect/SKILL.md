@@ -5,7 +5,7 @@ license: MIT
 compatibility: Framework-neutral design guidance. Framework specifics (LangChain, LangGraph) must be checked against the project's installed versions before use.
 metadata:
   title: Agentic AI Application Architect
-  version: "1.0.0-rc.2"
+  version: "1.0.0-rc.3"
   author: KnowledgeWala
   category: agentic-ai
   tags: "agents, multi-agent, tools, guardrails, evaluation, observability, langgraph"

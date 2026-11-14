@@ -5,7 +5,7 @@ license: MIT
 compatibility: Works in any Agent Skills capable assistant. Vendor and library choices must be checked against current documentation.
 metadata:
   title: RAG Engineering Specialist
-  version: "1.0.0-rc.2"
+  version: "1.0.0-rc.3"
   author: KnowledgeWala
   category: agentic-ai
   tags: "rag, retrieval, embeddings, vector-search, chunking, evaluation"

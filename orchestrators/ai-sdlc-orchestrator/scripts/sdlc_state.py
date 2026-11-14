@@ -36,7 +36,8 @@ STAGES = [
 STAGE_IDS = [s[0] for s in STAGES]
 GATES = {"requirements", "architecture", "plan", "release"}
 FLAG_KINDS = {"major-architecture", "destructive-db", "security-sensitive", "production-deploy", "secrets", "scope-change"}
-NOT_HUMAN = {"claude", "ai", "assistant", "agent", "model", "orchestrator", "llm", "bot"}
+NOT_HUMAN = {"claude", "claude code", "ai", "assistant", "agent", "model", "orchestrator", "llm", "bot", "codex", "openai",
+             "chatgpt", "gpt", "copilot", "github copilot", "cursor", "gemini", "cline", "devin", "aider", "windsurf", "system", "auto"}
 
 
 def now() -> str:

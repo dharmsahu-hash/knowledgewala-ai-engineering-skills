@@ -12,5 +12,20 @@
     "built_at": "2026-11-12T17:46:00+00:00",
     "artifacts": 63,
     "published": false
+  },
+  {
+    "version": "1.0.0-rc.3",
+    "status": "rolled_back",
+    "built_at": "2026-11-14T15:04:33+00:00",
+    "artifacts": 64,
+    "published": false,
+    "rolled_back_at": "2026-11-14T15:05:26+00:00"
+  },
+  {
+    "version": "1.0.0-rc.3",
+    "status": "built",
+    "built_at": "2026-11-14T15:05:30+00:00",
+    "artifacts": 64,
+    "published": false
   }
 ]

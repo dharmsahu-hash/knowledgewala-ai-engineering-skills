@@ -2,7 +2,7 @@
 
 > Draft for owner review. Not published. Claims below are limited to what is implemented and tested in this repository.
 
-**Skill id:** `ai-sdlc-orchestrator` · **Version:** 1.0.0-rc.2 · **License:** MIT · **Category:** Orchestration / Software engineering
+**Skill id:** `ai-sdlc-orchestrator` · **Version:** 1.0.0-rc.3 · **License:** MIT · **Category:** Orchestration / Software engineering
 **Tags:** sdlc, orchestration, governance, approval-gates, traceability, requirements, architecture, code-review
 
 ## Short description
@@ -42,7 +42,7 @@ Expected: clarification questions, a requirements document for your approval, th
 - The orchestrator works best with the companion skills installed; without them it applies their checklists inline and says so.
 
 ## Changelog
-See repository CHANGELOG.md (1.0.0-rc.2: 20-skill release candidate).
+See repository CHANGELOG.md (1.0.0-rc.3: 20-skill release candidate with Codex adapter).
 
 ## Pricing
 Proposal only, see [pricing-recommendation.md](pricing-recommendation.md). Final price set by the owner.

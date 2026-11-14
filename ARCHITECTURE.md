@@ -70,6 +70,7 @@ flowchart LR
   C --> CC[Claude Code: plugin + .claude/skills]
   C --> CU[Cursor: .cursor/rules .mdc + resources]
   C --> GH[Copilot: .github/skills + instructions]
+  C --> CX[Codex: .agents/skills + AGENTS.md snippet]
   C --> AG[Agensi: SKILL.md zips, manual upload]
 ```
 

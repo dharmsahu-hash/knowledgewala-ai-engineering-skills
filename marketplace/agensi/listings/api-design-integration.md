@@ -6,7 +6,7 @@
 - **Short description:** Designs and reviews REST APIs and integrations - resource modelling, OpenAPI specifications, versioning, authentication and authorisation, rate limiting, idempo
 - **Category:** backend
 - **Tags:** api, rest, openapi, versioning, idempotency, pagination
-- **Version:** 1.0.0-rc.2 (see CHANGELOG.md)
+- **Version:** 1.0.0-rc.3 (see CHANGELOG.md)
 - **License:** MIT
 - **Requirements:** Works in any Agent Skills capable assistant. OpenAPI 3.x snippets in YAML.
 - **Pricing recommendation (proposal, NOT approved):** Paid, one-time (owner to set amount)
